@@ -11,7 +11,7 @@
 // Fonction init queue           //
 //-------------------------------//
 
-void initQueue(struct etQueue stQueue)
+void initQueue()
 {
     
 };

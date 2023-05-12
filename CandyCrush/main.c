@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
 
-        struct etQueue stQueueAction;
+        struct etQueue stQueueAction[8];
 
         initQueue(&stQueueAction);
 

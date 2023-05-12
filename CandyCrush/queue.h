@@ -11,12 +11,21 @@
 #include <stdio.h>
 
 #endif /* queue_h */
-struct etQAct {
-    int tAct[20];
-    int d;
-    int dTwopiece;
+
+// Structure coordonnées pion
+struct etPion {
+    int X;
+    int Y;
 };
 
+//structure action queue
+struct etQAct {
+    char tcAct[20];
+    struct etPion stPion1;
+    struct etPion stPion2;
+};
+
+//structure queue
 struct etQueue {
     int dTop;
     int dNext;
