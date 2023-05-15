@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		83C2D49A27F4C2CD0031F84C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 83C2D49927F4C2CD0031F84C /* main.c */; };
 		83C2D4A227F4C3820031F84C /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 83C2D4A127F4C3820031F84C /* queue.c */; };
+		83D2D5C22A12979D00342926 /* matrice.c in Sources */ = {isa = PBXBuildFile; fileRef = 83D2D5C12A12979D00342926 /* matrice.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		83C2D49927F4C2CD0031F84C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		83C2D4A027F4C3820031F84C /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		83C2D4A127F4C3820031F84C /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
+		83D2D5C02A12979D00342926 /* matrice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrice.h; sourceTree = "<group>"; };
+		83D2D5C12A12979D00342926 /* matrice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrice.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		83C2D49827F4C2CD0031F84C /* CandyCrush */ = {
 			isa = PBXGroup;
 			children = (
+				83D2D5C02A12979D00342926 /* matrice.h */,
+				83D2D5C12A12979D00342926 /* matrice.c */,
 				83C2D4A027F4C3820031F84C /* queue.h */,
 				83C2D4A127F4C3820031F84C /* queue.c */,
 				83C2D49927F4C2CD0031F84C /* main.c */,
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D2D5C22A12979D00342926 /* matrice.c in Sources */,
 				83C2D49A27F4C2CD0031F84C /* main.c in Sources */,
 				83C2D4A227F4C3820031F84C /* queue.c in Sources */,
 			);

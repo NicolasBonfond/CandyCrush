@@ -22,7 +22,7 @@ void initQueue(stQueue* queue)
 //------------------------------//
 // Fonction add queue           //
 //------------------------------//
-void addQueue(stQueue* queue)
+void addQueue(stQueue* queue, stQAct* action)
 {
     
 };
@@ -32,7 +32,7 @@ void addQueue(stQueue* queue)
 //Fonction get queue           //
 //-----------------------------//
 
-void getQueue(stQueue* queue)
+void getQueue(stQueue* queue, stQAct* action)
 {
     
 };
