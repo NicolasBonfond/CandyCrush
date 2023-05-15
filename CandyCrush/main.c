@@ -10,8 +10,8 @@
 
 int main(int argc, const char * argv[]) {
 
-        struct etQueue stQueueAction[8];
+        stQueue *stQueueAction[MAX_SIZE];
 
-        initQueue(&stQueueAction);
+    initQueue(&stQueueAction);
 
 }

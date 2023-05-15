@@ -11,16 +11,18 @@
 // Fonction init queue           //
 //-------------------------------//
 
-void initQueue()
+void initQueue(stQueue* queue)
 {
-    
+    queue->dTop = 0;
+    queue->dNext = -1;
+    queue->dSize = 0;
 };
 
 
 //------------------------------//
 // Fonction add queue           //
 //------------------------------//
-void addQueue()
+void addQueue(stQueue* queue)
 {
     
 };
@@ -30,7 +32,16 @@ void addQueue()
 //Fonction get queue           //
 //-----------------------------//
 
-void getQueue()
+void getQueue(stQueue* queue)
 {
     
 };
+
+
+int isFull(stQueue* queue){
+    return (queue->dSize == MAX_SIZE);
+}
+
+int isEmpty (stQueue* queue) {
+    return (queue->dSize == 0);
+}

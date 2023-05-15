@@ -12,6 +12,9 @@
 
 #endif /* queue_h */
 
+//Definition de la taille maximale de la queue.
+#define MAX_SIZE 8
+
 // Structure coordonnées pion
 struct etPion {
     int X;
@@ -26,11 +29,25 @@ struct etQAct {
 };
 
 //structure queue
-struct etQueue {
+typedef struct etQueue {
     int dTop;
     int dNext;
     int dSize;
     struct etQAct stQAct;
-};
+} stQueue;
+
+// fonction paramètre full/empty pour la queue
+int isFull(stQueue* queue);
+int isEmpty (stQueue* queue);
+
+
+//init de la queue
+void initQueue (stQueue* queue);
+
+//add element à la queue
+void addQueue (stQueue* queue);
+
+//get element actuel du top de la queue
+void getQueue (stQueue* queue);
 
 
